@@ -397,7 +397,7 @@ button a{
     }
     .collect-1 button{
         height: 8vh;
-        width: 50%;
+        width: 120%;
         border: 2px solid silver;
         font-size: 1.25rem;
         font-weight: 600;
@@ -446,7 +446,7 @@ button a{
     }
     .slider button{
         height: 6vh;
-        width: 80%;
+        width: 120%;
         font-size: 1.25rem;
         font-weight: 600;
         border: 2px solid #FFFFFF;
@@ -657,7 +657,7 @@ button a{
     }
     .collect-1 button{
         height: 8vh;
-        width: 50%;
+        width: 120%;
         border: 2px solid silver;
         font-size: 1.5rem;
         font-weight: 600;
@@ -917,7 +917,7 @@ button a{
     }
     .collect-1 button{
         height: 8vh;
-        width: 50%;
+        width: 120%;
         border: 2px solid silver;
         font-size: 2rem;
         font-weight: 600;
