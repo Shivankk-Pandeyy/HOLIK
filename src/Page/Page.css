@@ -1,0 +1,1053 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+h1,h2{
+    font-family: "Anton SC", sans-serif;
+}
+p{
+    font-family: "Baskervville SC", serif;
+}
+button:hover{
+    opacity: 0.6;
+}
+button{
+    background-color: transparent;
+}
+button a{
+    color: #FFFFFF;
+}
+.container{
+    margin-top: -10vh;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: sticky;
+    bottom:0;
+    right: 5vh;
+}
+.container a{
+    margin-right: -80%;    
+}
+.container img{
+    height: 7vh;
+    z-index: 999;
+    margin-right: -80%;
+    cursor: pointer;
+}
+/* HOMEPAGE SETUP */
+.home{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #F63838;
+
+}
+.home img:nth-child(3){
+    height: 10vh;
+    position: sticky;
+    right: -10vw;
+    bottom: 0;
+}
+.h1{
+    height: 100vh;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.h1-logo{
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.h1-logo img{
+    height: 25vh;
+}
+.h1-content{
+    height: 70vh;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.h1-content h2{
+    font-size: 6.5rem;
+    color: #FFFFFF;
+    letter-spacing: 1vh;
+}
+.h1-content p{
+    font-size: 2rem;
+    text-align: center;
+    color: #FFFFFF;
+}
+.h2{
+    height: 100vh;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.h2 img{
+    height: 90vh;
+}
+.h1 img:nth-child(2){
+    height: 10vh;
+}
+/* COLLECTIONS */
+.collect{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #F63838;
+}
+.collect-1{
+    height: 100vh;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.collect-1 h2{
+    font-size: 5rem;
+    color: #FFFFFF;
+    letter-spacing: 1vh;
+}
+.collect-1 p{
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 0.5vh;
+}
+.collect-1 button{
+    height: 8vh;
+    width: 120%;
+    border: 2px solid silver;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.collect-1 img{
+    height: 40vh;
+}
+.collect-2{
+    height: 100vh;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.col-1{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.slider{
+    height: 48vh;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 2px solid white;
+    border-radius: 20px;
+    text-align: center;
+}
+.slider h2{
+    font-size: 1.25rem;
+    color: #FFFFFF;
+    font-family: "Baskervville SC", serif;
+}
+.slider p{
+    font-size: 1.2rem;
+    color: #FFFFFF;
+}
+.slider button{
+    height: 6vh;
+    width: 120%;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.slider img{
+    height: 30vh;
+    width: 80%;
+    border-radius: 10px;
+}
+/* CONTACT  */
+.contact{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #F63838;
+}
+.c1{
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.c1 img{
+    height: 90vh;
+}
+.c2{
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.c2 h2{
+    font-size: 2rem;
+    color: #FFFFFF;
+    letter-spacing: 1vh;
+}
+.c2 button{
+    height: 8vh;
+    width: 120%;
+    border: 2px solid silver;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.c2 form{
+    height: 50vh;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border: 2px solid #FFFFFF;
+    border-radius: 20px;
+}
+.c2 form p{
+    font-size: 1.5rem;
+    color: #FFFFFF;
+}
+.c2 form input{
+    height: 8vh;
+    width: 90%;
+    font-size: 1.25rem;
+    color: #000000;
+    outline: none;
+    text-align: center;
+    border: 2px solid #FFFFFF;
+    border-radius: 20px;
+}
+.c2 form input:focus{
+    background-color: transparent;
+    color: #FFFFFF;
+}
+.c2 form button{
+    width: 60%;
+}
+@media screen and (min-width: 100px) and (max-width:500px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+    }
+    h1,h2{
+        font-family: "Anton SC", sans-serif;
+    }
+    p{
+        font-family: "Baskervville SC", serif;
+    }
+    button:hover{
+        opacity: 0.6;
+    }
+    button{
+        background-color: transparent;
+        width: 120%;
+    }
+    button a{
+        color: #FFFFFF;
+    }
+    /* HOMEPAGE SETUP */
+    .home{
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: #F63838;
+    }
+
+    .h1{
+        height: 35vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .h1-logo{
+        height: 10vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .h1-logo img{
+        height: 6vh;
+    }
+    .h1-logo img:nth-child(2){
+        height: 4vh;
+    }
+    .h1-content{
+        height:25vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 1.25vh;
+    }
+    .h1-content h2{
+        font-size: 2rem;
+        color: #FFFFFF;
+        letter-spacing: 1vh;
+        text-align: center;
+    }
+    .h1-content p{
+        font-size: 1rem;
+        text-align: center;
+        color: #FFFFFF;
+        font-size: 800;
+    }
+    .h1-content p span{
+        font-size: 1.75rem;
+        font-weight: 900;
+        color: #fcf300;
+    }
+    .h2{
+        height: 65vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 1vh;
+    }
+    .h2 img{
+        height: 60vh;
+        width: 100%;
+    }
+    .WA{
+        height: 10vh;
+    }
+    /* COLLECTIONS */
+    .collect{
+        height: 430vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: #F63838;
+    }
+    .collect-1{
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .collect-1 h2{
+        font-size: 3rem;
+        color: #FFFFFF;
+        letter-spacing: 1vh;
+    }
+    .collect-1 p{
+        font-size: 1.25rem;
+        color: #FFFFFF;
+        text-align: center;
+        padding: 0.5vh;
+    }
+    .collect-1 button{
+        height: 8vh;
+        width: 50%;
+        border: 2px solid silver;
+        font-size: 1.25rem;
+        font-weight: 600;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+    .collect-1 img{
+        height: 40vh;
+        width: 90%;
+    }
+    .collect-2{
+        height: 320vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly; 
+    }
+    .col-1{
+        height: 160vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .slider{
+        height: 75vh;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        border: 2px solid white;
+        border-radius: 20px;
+        text-align: center;
+    }
+    .slider h2{
+        font-size: 1.25rem;
+        color: #FFFFFF;
+        font-family: "Baskervville SC", serif;
+    }
+    .slider p{
+        font-size: 1rem;
+        color: #FFFFFF;
+    }
+    .slider button{
+        height: 6vh;
+        width: 80%;
+        font-size: 1.25rem;
+        font-weight: 600;
+        border: 2px solid #FFFFFF;
+        color: #FFFFFF;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .slider img{
+        height: 30vh;
+        width: 80%;
+        border-radius: 10px;
+    }
+    /* CONTACT  */
+    .contact{
+        height: 180vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: #F63838;
+    }
+    .c1{
+        height: 75vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .c1 img{
+        height: 70vh;
+        width: 100%;
+    }
+    .c2{
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .c2 h2{
+        font-size: 2rem;
+        color: #FFFFFF;
+        letter-spacing: 1vh;
+    }
+    .c2 button{
+        height: 8vh;
+        width: 120%;
+        border: 2px solid silver;
+        font-size: 1.25rem;
+        font-weight: 600;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+    .c2 form{
+        height: 50vh;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        border: 2px solid #FFFFFF;
+        border-radius: 20px;
+    }
+    .c2 form p{
+        font-size: 1.5rem;
+        color: #FFFFFF;
+    }
+    .c2 form input{
+        height: 8vh;
+        width: 90%;
+        font-size: 1.25rem;
+        color: #000000;
+        outline: none;
+        text-align: center;
+        border: 2px solid #FFFFFF;
+        border-radius: 20px;
+    }
+    .c2 form input:focus{
+        background-color: transparent;
+        color: #FFFFFF;
+    }
+}
+@media screen and (min-width: 501px) and (max-width:1000px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+    }
+    h1,h2{
+        font-family: "Anton SC", sans-serif;
+    }
+    p{
+        font-family: "Baskervville SC", serif;
+    }
+    button:hover{
+        opacity: 0.6;
+    }
+    button{
+        background-color: transparent;
+    }
+    button a{
+        color: #FFFFFF;
+    }
+    /* HOMEPAGE SETUP */
+    .home{
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: #F63838;
+    }
+
+    .h1{
+        height: 30vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .h1-logo{
+        height: 10vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .h1-logo img{
+        height: 6vh;
+    }
+    .h1-logo img:nth-child(2){
+        height: 4vh;
+    }
+    .h1-content{
+        height:20vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 1.25vh;
+    }
+    .h1-content h2{
+        font-size: 2rem;
+        color: #FFFFFF;
+        letter-spacing: 1vh;
+        text-align: center;
+    }
+    .h1-content p{
+        font-size: 1rem;
+        text-align: center;
+        color: #FFFFFF;
+        font-size: 800;
+    }
+    .h1-content p span{
+        font-size: 1.75rem;
+        font-weight: 900;
+        color: #fcf300;
+    }
+    .h2{
+        height: 70vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 1vh;
+    }
+    .h2 img{
+        height: 65vh;
+        width: 100%;
+    }
+    .WA{
+        height: 10vh;
+    }
+    /* COLLECTIONS */
+    .collect{
+        height: 430vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: #F63838;
+    }
+    .collect-1{
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .collect-1 h2{
+        font-size: 4rem;
+        color: #FFFFFF;
+        letter-spacing: 1vh;
+    }
+    .collect-1 p{
+        font-size: 2rem;
+        color: #FFFFFF;
+        text-align: center;
+        padding: 0.5vh;
+    }
+    .collect-1 button{
+        height: 8vh;
+        width: 50%;
+        border: 2px solid silver;
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+    .collect-1 img{
+        height: 40vh;
+        width: 70%;
+    }
+    .collect-2{
+        height: 320vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly; 
+    }
+    .col-1{
+        height: 160vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .slider{
+        height: 75vh;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        border: 2px solid white;
+        border-radius: 20px;
+        text-align: center;
+    }
+    .slider h2{
+        font-size: 1.75rem;
+        color: #FFFFFF;
+        font-family: "Baskervville SC", serif;
+    }
+    .slider p{
+        font-size: 1rem;
+        color: #FFFFFF;
+    }
+    .slider button{
+        height: 6vh;
+        width: 80%;
+        font-size: 1.5rem;
+        font-weight: 600;
+        border: 2px solid #FFFFFF;
+        color: #FFFFFF;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .slider img{
+        height: 30vh;
+        width: 80%;
+        border-radius: 10px;
+    }
+    /* CONTACT  */
+    .contact{
+        height: 180vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: #F63838;
+    }
+    .c1{
+        height: 75vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .c1 img{
+        height: 70vh;
+        width: 100%;
+    }
+    .c2{
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .c2 h2{
+        font-size: 2rem;
+        color: #FFFFFF;
+        letter-spacing: 1vh;
+    }
+    .c2 button{
+        height: 8vh;
+        width: 120%;
+        border: 2px solid silver;
+        font-size: 1.25rem;
+        font-weight: 600;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+    .c2 form{
+        height: 50vh;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        border: 2px solid #FFFFFF;
+        border-radius: 20px;
+    }
+    .c2 form p{
+        font-size: 1.5rem;
+        color: #FFFFFF;
+    }
+    .c2 form input{
+        height: 8vh;
+        width: 90%;
+        font-size: 1.25rem;
+        color: #000000;
+        outline: none;
+        text-align: center;
+        border: 2px solid #FFFFFF;
+        border-radius: 20px;
+    }
+    .c2 form input:focus{
+        background-color: transparent;
+        color: #FFFFFF;
+    }
+}
+@media screen and (min-width: 1001px) and (max-width:1500px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+    }
+    h1,h2{
+        font-family: "Anton SC", sans-serif;
+    }
+    p{
+        font-family: "Baskervville SC", serif;
+    }
+    button:hover{
+        opacity: 0.6;
+    }
+    button{
+        background-color: transparent;
+    }
+    button a{
+        color: #FFFFFF;
+    }
+    /* HOMEPAGE SETUP */
+    .home{
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: #F63838;
+    }
+
+    .h1{
+        height: 30vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .h1-logo{
+        height: 10vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .h1-logo img{
+        height: 6vh;
+    }
+    .h1-logo img:nth-child(2){
+        height: 4vh;
+    }
+    .h1-content{
+        height:20vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 1.25vh;
+    }
+    .h1-content h2{
+        font-size: 4rem;
+        color: #FFFFFF;
+        letter-spacing: 1vh;
+        text-align: center;
+    }
+    .h1-content p{
+        font-size: 2rem;
+        text-align: center;
+        color: #FFFFFF;
+        font-size: 800;
+    }
+    .h1-content p span{
+        font-size: 1.75rem;
+        font-weight: 900;
+        color: #fcf300;
+    }
+    .h2{
+        height: 70vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 1vh;
+    }
+    .h2 img{
+        height: 60vh;
+        width: 100%;
+    }
+    .WA{
+        height: 10vh;
+    }
+    /* COLLECTIONS */
+    .collect{
+        height: 430vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: #F63838;
+    }
+    .collect-1{
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .collect-1 h2{
+        font-size: 6rem;
+        color: #FFFFFF;
+        letter-spacing: 1vh;
+    }
+    .collect-1 p{
+        font-size: 2.5rem;
+        color: #FFFFFF;
+        text-align: center;
+        padding: 0.5vh;
+    }
+    .collect-1 button{
+        height: 8vh;
+        width: 50%;
+        border: 2px solid silver;
+        font-size: 2rem;
+        font-weight: 600;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+    .collect-1 img{
+        height: 40vh;
+        width: 70%;
+    }
+    .collect-2{
+        height: 320vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly; 
+    }
+    .col-1{
+        height: 160vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .slider{
+        height: 75vh;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        border: 2px solid white;
+        border-radius: 20px;
+        text-align: center;
+    }
+    .slider h2{
+        font-size: 1.75rem;
+        color: #FFFFFF;
+        font-family: "Baskervville SC", serif;
+    }
+    .slider p{
+        font-size: 2rem;
+        color: #FFFFFF;
+    }
+    .slider button{
+        height: 6vh;
+        width: 120%;
+        font-size: 2rem;
+        font-weight: 600;
+        border: 2px solid #FFFFFF;
+        color: #FFFFFF;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .slider img{
+        height: 30vh;
+        width: 80%;
+        border-radius: 10px;
+    }
+    /* CONTACT  */
+    .contact{
+        height: 180vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: #F63838;
+    }
+    .c1{
+        height: 75vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .c1 img{
+        height: 70vh;
+        width: 100%;
+    }
+    .c2{
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .c2 h2{
+        font-size: 4rem;
+        color: #FFFFFF;
+        letter-spacing: 1vh;
+    }
+    .c2 button{
+        height: 8vh;
+        width: 120%;
+        border: 2px solid silver;
+        font-size: 2rem;
+        font-weight: 600;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+    .c2 form{
+        height: 50vh;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        border: 2px solid #FFFFFF;
+        border-radius: 20px;
+    }
+    .c2 form p{
+        font-size: 2rem;
+        color: #FFFFFF;
+    }
+    .c2 form input{
+        height: 8vh;
+        width: 90%;
+        font-size: 2rem;
+        color: #000000;
+        outline: none;
+        text-align: center;
+        border: 2px solid #FFFFFF;
+        border-radius: 20px;
+    }
+    .c2 form input:focus{
+        background-color: transparent;
+        color: #FFFFFF;
+    }
+}
