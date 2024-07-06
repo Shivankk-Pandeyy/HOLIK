@@ -38,7 +38,6 @@ button a{
     border: 2px solid #FFFFFF;
     border-radius: 10px;
     margin-top: 2vh;
-    z-index: 999;
 }
 .sec-holder h2{
     font-size: 2rem;
@@ -58,6 +57,7 @@ button a{
     border: 2px solid #FFFFFF;
     border-radius: 10px;
     cursor: pointer;
+    z-index: 999;
 
 }
 .sec-holder img{
@@ -125,13 +125,14 @@ button a{
     }
     .sec-holder button{
         height: 8vh;
-        width: 40%;
+        width: 120%;
         font-size: 1.25rem;
         font-weight: 600;
         color: #FFFFFF;
         border: 2px solid #FFFFFF;
         border-radius: 10px;
         cursor: pointer;
+        z-index: 999;
     }
     .sec-holder img{
         height: 30vh;
