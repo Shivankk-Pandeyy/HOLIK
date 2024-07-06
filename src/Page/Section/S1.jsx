@@ -79,7 +79,7 @@ return (
     </div>
     </div>
     <div className="container">
-    <img src={WA} alt="WHATSAPP" className="WA"></img>
+    <a href="https://api.whatsapp.com/send?phone=7987311881&text=Hello%2C+I+saw+your+ad+in+Instagram%2C+I+want+premium+drop+shoulder+t-shirts+for+reselling%21"><img src={WA} alt="WHATSAPP" className="WA" title="OPEN WHATSAPP"></img></a>
     </div>
     </>
 )
