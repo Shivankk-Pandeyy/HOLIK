@@ -21,7 +21,7 @@ const S2 = () => {
     <p>Style - <span>Drop Shoulder</span></p>
     <p>MOQ - <span>6 Piece</span></p>
     <p>CONTACT FOR WHOLESALE PRICE</p>
-    <a href="https://api.whatsapp.com/send?phone=7987311881&text=Hello%2C+I+saw+your+ad+in+Instagram%2C+I%27m+Interested+in+black+drop+shoulder+t-shirts+anime+prints%21"><button>SHOP NOW</button></a>
+    <a href="https://api.whatsapp.com/send?phone=7987311881&text=Hello%2C+I+saw+your+ad+in+Instagram%2C+I%27m+Interested+in+black+drop+shoulder+t-shirts+anime+prints%21"><button>GET PRICE</button></a>
     </div>
     <div className="sec-holder">
     <img src={pic2} alt="LOGO"></img>
@@ -30,7 +30,7 @@ const S2 = () => {
     <p>Style - <span>Drop Shoulder</span></p>
     <p>MOQ - <span>6 Piece</span></p>
     <p>CONTACT FOR WHOLESALE PRICE</p>
-    <a href="https://api.whatsapp.com/send?phone=7987311881&text=Hello%2C+I+saw+your+ad+in+Instagram%2C+I%27m+Interested+in+black+drop+shoulder+t-shirts+anime+prints%21"><button>SHOP NOW</button></a>
+    <a href="https://api.whatsapp.com/send?phone=7987311881&text=Hello%2C+I+saw+your+ad+in+Instagram%2C+I%27m+Interested+in+black+drop+shoulder+t-shirts+anime+prints%21"><button>GET PRICE</button></a>
     </div>
     <div className="sec-holder">
     <img src={pic3} alt="LOGO"></img>
@@ -39,7 +39,7 @@ const S2 = () => {
     <p>Style - <span>Drop Shoulder</span></p>
     <p>MOQ - <span>6 Piece</span></p>
     <p>CONTACT FOR WHOLESALE PRICE</p>
-    <a href="https://api.whatsapp.com/send?phone=7987311881&text=Hello%2C+I+saw+your+ad+in+Instagram%2C+I%27m+Interested+in+black+drop+shoulder+t-shirts+anime+prints%21"><button>SHOP NOW</button></a>
+    <a href="https://api.whatsapp.com/send?phone=7987311881&text=Hello%2C+I+saw+your+ad+in+Instagram%2C+I%27m+Interested+in+black+drop+shoulder+t-shirts+anime+prints%21"><button>GET PRICE</button></a>
     </div>
     <div className="sec-holder">
     <img src={pic4} alt="LOGO"></img>
@@ -48,7 +48,7 @@ const S2 = () => {
     <p>Style - <span>Drop Shoulder</span></p>
     <p>MOQ - <span>6 Piece</span></p>
     <p>CONTACT FOR WHOLESALE PRICE</p>
-    <a href="https://api.whatsapp.com/send?phone=7987311881&text=Hello%2C+I+saw+your+ad+in+Instagram%2C+I%27m+Interested+in+black+drop+shoulder+t-shirts+anime+prints%21"><button>SHOP NOW</button></a>
+    <a href="https://api.whatsapp.com/send?phone=7987311881&text=Hello%2C+I+saw+your+ad+in+Instagram%2C+I%27m+Interested+in+black+drop+shoulder+t-shirts+anime+prints%21"><button>GET PRICE</button></a>
     </div>
     <div className="sec-holder">
     <img src={pic5} alt="LOGO"></img>
@@ -57,7 +57,7 @@ const S2 = () => {
     <p>Style - <span>Drop Shoulder</span></p>
     <p>MOQ - <span>6 Piece</span></p>
     <p>CONTACT FOR WHOLESALE PRICE</p>
-    <a href="https://api.whatsapp.com/send?phone=7987311881&text=Hello%2C+I+saw+your+ad+in+Instagram%2C+I%27m+Interested+in+black+drop+shoulder+t-shirts+anime+prints%21"><button>SHOP NOW</button></a>
+    <a href="https://api.whatsapp.com/send?phone=7987311881&text=Hello%2C+I+saw+your+ad+in+Instagram%2C+I%27m+Interested+in+black+drop+shoulder+t-shirts+anime+prints%21"><button>GET PRICE</button></a>
     </div>
     <div className="sec-holder">
     <img src={pic6} alt="LOGO"></img>
@@ -66,7 +66,7 @@ const S2 = () => {
     <p>Style - <span>Drop Shoulder</span></p>
     <p>MOQ - <span>6 Piece</span></p>
     <p>CONTACT FOR WHOLESALE PRICE</p>
-    <a href="https://api.whatsapp.com/send?phone=7987311881&text=Hello%2C+I+saw+your+ad+in+Instagram%2C+I%27m+Interested+in+black+drop+shoulder+t-shirts+anime+prints%21"><button>SHOP NOW</button></a>
+    <a href="https://api.whatsapp.com/send?phone=7987311881&text=Hello%2C+I+saw+your+ad+in+Instagram%2C+I%27m+Interested+in+black+drop+shoulder+t-shirts+anime+prints%21"><button>GET PRICE</button></a>
     </div>
     <div className="sec-holder">
     <img src={pic7} alt="LOGO"></img>
@@ -75,7 +75,7 @@ const S2 = () => {
     <p>Style - <span>Drop Shoulder</span></p>
     <p>MOQ - <span>6 Piece</span></p>
     <p>CONTACT FOR WHOLESALE PRICE</p>
-    <a href="https://api.whatsapp.com/send?phone=7987311881&text=Hello%2C+I+saw+your+ad+in+Instagram%2C+I%27m+Interested+in+black+drop+shoulder+t-shirts+anime+prints%21"><button>SHOP NOW</button></a>
+    <a href="https://api.whatsapp.com/send?phone=7987311881&text=Hello%2C+I+saw+your+ad+in+Instagram%2C+I%27m+Interested+in+black+drop+shoulder+t-shirts+anime+prints%21"><button>GET PRICE</button></a>
     </div>
     <div className="sec-holder">
     <img src={pic8} alt="LOGO"></img>
@@ -84,7 +84,7 @@ const S2 = () => {
     <p>Style - <span>Drop Shoulder</span></p>
     <p>MOQ - <span>6 Piece</span></p>
     <p>CONTACT FOR WHOLESALE PRICE</p>
-    <a href="https://api.whatsapp.com/send?phone=7987311881&text=Hello%2C+I+saw+your+ad+in+Instagram%2C+I%27m+Interested+in+black+drop+shoulder+t-shirts+anime+prints%21"><button>SHOP NOW</button></a>
+    <a href="https://api.whatsapp.com/send?phone=7987311881&text=Hello%2C+I+saw+your+ad+in+Instagram%2C+I%27m+Interested+in+black+drop+shoulder+t-shirts+anime+prints%21"><button>GET PRICE</button></a>
     </div>
     </div>
     <div className="container">
