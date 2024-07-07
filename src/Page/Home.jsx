@@ -32,7 +32,7 @@ const Home = () => {
             [name]:value
         });
     }
-    const [state, setState] = useForm("xnnaqoap");
+    const [state,setState] = useForm("mzzpbovq");
     const submitData=async(e)=>{
         e.preventDefault();
         let eCheck=emailRegex.test(data.email);
@@ -46,8 +46,7 @@ const Home = () => {
             try{
                 setState({
                     errors:null,
-                    email:data.email,
-                    result:data.suggestion,
+                    result:data,
                     succeeded:true,
                     submitting:true
                 })
@@ -107,7 +106,7 @@ return (
     </div>
     <div className="slider">
     <img src={S4} alt="CLOTHES"></img>
-    <h2>Premium drop shoulder T-shirts(M 36)</h2>
+    <h2>Premium drop shoulder T-shirts PUFF Print(M 36)</h2>
     <NavLink to="/Section4"><button>EXPLORE</button></NavLink>
     </div>
     </div>
